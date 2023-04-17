@@ -1,0 +1,18 @@
+.menu {
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      display: flex;
+      &:not(:first-of-type) {
+        margin-left: 16px;
+      }
+    }
+  }
+
+  .active {
+    color: red;
+  }
+}
